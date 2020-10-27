@@ -1,0 +1,7 @@
+#this script is within a python button. When clicked it will change the label of node selected to what has been written in "CustomLabel" knob
+
+node = nuke.thisNode()
+roto_node = nuke.selectedNode()
+new_label = node["CustomLabel"].value()
+
+roto_node.knob("label").setValue(new_label)
