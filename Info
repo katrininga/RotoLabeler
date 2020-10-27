@@ -1,0 +1,9 @@
+Tool for roto artists to make it easier to label roto nodes. Keep your roto's organized in a more efficient way.
+
+How to use:
+
+Write your desired label in the "Custom Label" text input knob. Not reffering to the "label" found in all nuke nodes, but a custom text input knob created within the tool.
+
+Next you can choose to either select an existing Roto node and click "Label Node", it changes the "label" knob within the Roto node to what you have written in "Custom Label".
+
+Or you can choose to create a new Roto node that will include the custom label, by using the "Create Roto" knob.
