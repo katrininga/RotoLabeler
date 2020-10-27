@@ -1,0 +1,7 @@
+#this code is within a tool as a custom python button
+#Creates a new Roto node with "label" set to what is written in "CustomLabel" knob.
+
+node = nuke.thisNode()
+node_label = node["CustomLabel"].getValue()
+
+nuke.createNode("Roto").knob("label").setValue(node_label)
